@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Bin Ashfaq - Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="pic/mic2.png" type="image/x-icon">
+    <style>
+        /* CSS animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .slide-in-left {
+            transform: translateX(-100%);
+            opacity: 0;
+            animation: slideInLeft 1s forwards;
+        }
+
+        @keyframes slideInLeft {
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .slide-in-right {
+            transform: translateX(100%);
+            opacity: 0;
+            animation: slideInRight 1s forwards;
+        }
+
+        @keyframes slideInRight {
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="fade-in">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="services">
+        <h2 class="fade-in">My Services</h2>
+        <div class="service-card slide-in-left">
+            <h3>Social Media Outreach</h3>
+            <p>Building and engaging with your audience on social media platforms to increase your brand's visibility.</p>
+        </div>
+        <div class="service-card slide-in-right">
+            <h3>Lead Generation</h3>
+            <p>Generating high-quality leads through targeted campaigns, ensuring a higher conversion rate for your business.</p>
+        </div>
+        <div class="service-card slide-in-left">
+            <h3>Appointment Setting</h3>
+            <p>Scheduling appointments with potential leads to maximize your business opportunities.</p>
+        </div>
+    </section>
+</body>
+</html>

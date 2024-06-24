@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Bin Ashfaq - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="pic/mic2.png" type="image/x-icon">
+    <style>
+        /* CSS animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .slide-in {
+            transform: translateX(-100%);
+            opacity: 0;
+            animation: slideIn 1s forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .slide-up {
+            transform: translateY(100%);
+            opacity: 0;
+            animation: slideUp 1.5s forwards;
+        }
+
+        @keyframes slideUp {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="fade-in">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero slide-in">
+            <h1>Taha Bin Ashfaq</h1>
+            <p>Social Media Outreach & Lead Generation Expert</p>
+        </div>
+    </header>
+
+    <div class="intro-data">
+        <section class="intro slide-up">
+            <h2>Welcome to My Portfolio</h2>
+            <p>As a specialist in social media outreach and lead generation, I am dedicated to helping businesses enhance their online presence and generate high-quality leads. With a proven track record of successful campaigns, I bring a strategic approach to social media marketing that drives results.</p>
+        </section>
+        <section class="lead-generation slide-up">
+            <h2>Lead Generation</h2>
+            <p>Lead generation is crucial for business growth. I use a combination of innovative strategies and tools to attract potential customers to your business. From identifying target audiences to creating compelling content, my approach ensures that your business captures and converts leads effectively.</p>
+            <ul>
+                <li>Targeted Campaigns: Reach the right audience with precision.</li>
+                <li>Quality Leads: Focus on high-converting leads.</li>
+                <li>Analytics: Measure and optimize lead generation efforts.</li>
+            </ul>
+        </section>
+        <section class="social-media-outreach slide-up">
+            <h2>Social Media Outreach</h2>
+            <p>In today’s digital age, social media is a powerful platform for brand awareness and engagement. I help businesses leverage social media to connect with their audience, build relationships, and promote their brand effectively.</p>
+            <ul>
+                <li>Content Creation: Engaging content that resonates with your audience.</li>
+                <li>Community Management: Foster a loyal community around your brand.</li>
+                <li>Platform Expertise: Utilize the best practices for each social media platform.</li>
+            </ul>
+        </section>
+        <section class="cta slide-up">
+            <h2>Let's Work Together</h2>
+            <p>If you’re ready to take your social media presence to the next level and generate more leads, get in touch with me today. Together, we can create a strategy that meets your business goals.</p>
+            <a href="contact.html" class="cta-button">Contact Me</a>
+        </section>
+    </div>
+</body>
+</html>

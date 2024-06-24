@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Bin Ashfaq - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="pic/mic2.png" type="image/x-icon">
+    <style>
+        /* CSS animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .slide-in {
+            transform: translateX(-100%);
+            opacity: 0;
+            animation: slideIn 1s forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .slide-up {
+            transform: translateY(100%);
+            opacity: 0;
+            animation: slideUp 1.5s forwards;
+        }
+
+        @keyframes slideUp {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="fade-in">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero slide-in">
+            <h1>Contact Taha Bin Ashfaq</h1>
+            <p>Get in touch for social media outreach & lead generation services</p>
+        </div>
+    </header>
+
+    <div class="contact-container">
+        <section class="contact-info slide-up">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:tahaatworknow@gmail.com">tahaatworknow@gmail.com</a></p>
+            <p>Phone: <a href="tel:+923344058002">+92 334 4058002</a></p>
+        </section>
+    </div>
+</body>
+</html>
